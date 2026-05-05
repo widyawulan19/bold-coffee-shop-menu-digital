@@ -1,4 +1,4 @@
-# Digital Menu Web App — Restaurant Edition "THE LOCAL"
+# Digital Menu Web App — Coffee shop Edition "BORCELLE CAFE"
 
 A modern, mobile-first digital menu web app designed to deliver a seamless, app-like experience directly from the browser.
 
@@ -94,8 +94,8 @@ This digital menu is not just a UI — it's a product solution for small busines
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/widyawulan19/bold-menu-digital.git
-cd bold-menu-digital
+git clone https://github.com/widyawulan19/bold-coffee-shop-menu-digital.git
+cd coffee-shop-menu
 ```
 
 ---
@@ -187,10 +187,9 @@ This project is open-source and available under the MIT License.
 
 
 ## LIVE PREVIRW / Deploy link 
-https://light-menu-digital.vercel.app/
+https://bold-coffee-shop-menu-digital.vercel.app
 
 ## Preview 
-![Bold Welcome Screen](./public/welcomePic.png)
-![Choose Screen](./public/listPic.png)
-![Meals Menu Screen](./public/menuPic.png)
+![Bold Welcome Screen](./public/welcome-bold.png)
+![Coffee Menu Screen](./public/menu-list-bold.png)
 
