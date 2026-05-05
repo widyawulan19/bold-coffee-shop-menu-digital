@@ -190,6 +190,6 @@ This project is open-source and available under the MIT License.
 https://bold-coffee-shop-menu-digital.vercel.app
 
 ## Preview 
-![Bold Welcome Screen](./public/welcome-bold.png)
-![Coffee Menu Screen](./public/menu-list-bold.png)
+![Bold Welcome Screen](./public/assets/welcome-bold.png)
+![Coffee Menu Screen](./public/assets/menu-list-bold.png)
 
