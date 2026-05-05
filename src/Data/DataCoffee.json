@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "category": "COFFEE",
+        "items": [
+            {
+                "name": "Espresso",
+                "price": "5.00"
+            },
+            {
+                "name": "Double Espresso",
+                "price": "7.00"
+            },
+            {
+                "name": "Latte",
+                "price": "5.00"
+            },
+            {
+                "name": "Americano",
+                "price": "7.00"
+            },
+            {
+                "name": "Macchiato",
+                "price": "8.00"
+            },
+            {
+                "name": "Flat White",
+                "price": "9.00"
+            },
+            {
+                "name": "Cappucino",
+                "price": "10.00"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "NON-COFFEE",
+        "items": [
+            {
+                "name": "Hot Chocolate",
+                "price": "5.00"
+            },
+            {
+                "name": "Milkshake",
+                "price": "8.00"
+            },
+            {
+                "name": "Smoothie",
+                "price": "8.00"
+            },
+            {
+                "name": "Lemonade",
+                "price": "5.00"
+            },
+            {
+                "name": "Vanilla Milkshake",
+                "price": "10.00"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "TEA",
+        "items": [
+            {
+                "name": "Lemon Tea",
+                "price": "7.00"
+            },
+            {
+                "name": "Manggo Tea",
+                "price": "7.00"
+            },
+            {
+                "name": "Jasmine",
+                "price": "8.00"
+            },
+            {
+                "name": "Green Tea",
+                "price": "10.00"
+            },
+            {
+                "name": "Mint Tea",
+                "price": "10.00"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "DESSERTS",
+        "items": [
+            {
+                "name": "Strawberry Waffle",
+                "price": "12.00"
+            },
+            {
+                "name": "Cinnamon Roll",
+                "price": "12.00"
+            },
+            {
+                "name": "Lemon Pie",
+                "price": "10.00"
+            },
+            {
+                "name": "Croissant",
+                "price": "10.00"
+            },
+            {
+                "name": "Chocolate Waffle",
+                "price": "12.00"
+            },
+            {
+                "name": "Brownies",
+                "price": "8.00"
+            },
+            {
+                "name": "Cheesecake",
+                "price": "10.00"
+            },
+            {
+                "name": "Chocolate Muffin",
+                "price": "10.00"
+            }
+        ]
+    }
+]

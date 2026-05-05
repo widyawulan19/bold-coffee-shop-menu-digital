@@ -2,45 +2,47 @@
    🌐 ROOT DESIGN SYSTEM
 ========================= */
 :root {
-  /* 🎨 COLORS */
-
 
   /* Background */
-  --color-bg-primary: #F4F1EC;
+  --color-bg: #2B2B2B;
+  /* dark charcoal */
+  --color-surface: #333333;
+  /* slightly lighter */
 
-  --color-bg: #f0ece4;
-  --color-bg-secondary: #E8E2D8;
+  /* Primary Text */
+  --color-text-primary: #F5F5F5;
+  /* off-white */
+  --color-text-secondary: #CFCFCF;
 
-  /* Text */
-  --color-text-primary: #2B2B2B;
-  --color-text-secondary: #6F6F6F;
+  /* Accent (gold vibes ✨) */
+  --color-accent: #C9A96E;
+  --color-accent-bold: #c99a43;
+  --color-accent-soft: #E5C88C;
 
-  /* Accent */
-  --color-accent: #C9A46A;
-  --color-logo: #c8ac7e;
+  /* Divider / line */
+  --color-border: #444444;
 
-  /* Divider / Border */
-  --color-border: #CFC8BD;
+  /* Icon / subtle */
+  --color-muted: #888888;
 
-  /* Optional (food tone support) */
-  --color-brown: #8B5E3C;
-  --color-warm: #B97A56;
 
   /* Font Family */
-  --font-heading: 'Playfair Display', serif;
-  --font-body: 'Open Sans', sans-serif;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
 
-  /* 🔤 TYPOGRAPHY */
-  --text-xl: 1.5rem;
-  /* Page title */
-  --text-lg: 1.25rem;
-  /* Category */
-  --text-md: 1.1rem;
-  /* Menu name */
-  --text-base: 0.95rem;
-  /* Description */
-  --text-sm: 0.85rem;
-  /* Meta */
+
+  /* 🔤 TYPOGRAPHY (converted to px) */
+  --text-xl: 24px;
+  /* 1.5rem */
+  --text-lg: 20px;
+  /* 1.25rem */
+  --text-md: 17.6px;
+  /* 1.1rem */
+  --text-base: 15.2px;
+  /* 0.95rem */
+  --text-sm: 13.6px;
+  /* 0.85rem */
+
 
   /* 📐 SPACING (8pt system) */
   --space-1: 4px;
@@ -69,10 +71,9 @@
 }
 
 body {
-  /* font-family: 'Inter', sans-serif; */
-  font-family: "Roboto Slab", serif;
+  font-family: var(--font-primary);
 
-  background: var(--color-secondary-bg);
+  background: var(--color-surface);
   color: var(--color-text-primary);
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
@@ -108,16 +109,19 @@ body {
    🔤 TYPOGRAPHY
 ========================= */
 h1 {
+  font-family: var(--font-secondary);
   font-size: var(--text-xl);
   font-weight: 600;
 }
 
 h2 {
+  font-family: var(--font-secondary);
   font-size: var(--text-lg);
   font-weight: 600;
 }
 
 h3 {
+  /* font-family: var(--font-secondary); */
   font-size: var(--text-md);
   font-weight: 500;
 }
